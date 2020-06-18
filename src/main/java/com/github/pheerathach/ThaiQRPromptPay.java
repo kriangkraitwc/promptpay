@@ -402,7 +402,7 @@ public class ThaiQRPromptPay {
                 @Override
                 public BillPaymentBuilderOptionalDetail ref1(String ref1) {
                     validateAlphanumeric("Reference 1", ref1);
-                    validateLength("Reference 1", ref1, 15);
+                    validateLength("Reference 1", ref1, 20);
                     this.ref1 = ref1;
                     return this;
                 }
